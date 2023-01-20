@@ -1,0 +1,10 @@
+# 内容：origin和暴雪平台的规则
+# 数量：8条
+DOMAIN-SUFFIX,origin.com
+DOMAIN,cloudsync-prod.s3.amazonaws.com
+DOMAIN,origin-a.akamaihd.net
+DOMAIN,ssl-lvlt.cdn.ea.com
+DOMAIN,rtm.tnt-ea.com
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,battlenet.com
+DOMAIN-SUFFIX,blizzard.com
