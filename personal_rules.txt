@@ -7,7 +7,7 @@
 
 🚀 节点选择,[]DOMAIN-SUFFIX,south-plus.net
 
-DIRECT,[]DOMAIN-KEYWORD,yhdmp
+DIRECT,[]DOMAIN-KEYWORD,yhdm
 DIRECT,[]DOMAIN-KEYWORD,yhpdm
 DIRECT,[]DOMAIN-KEYWORD,lenovo
 DIRECT,[]DOMAIN-SUFFIX,qq.com
