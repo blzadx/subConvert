@@ -1,9 +1,11 @@
 # 个人使用的规则集
 
 🌍 国外媒体,[]DOMAIN-KEYWORD,iwara
+🌍 国外媒体,[]DOMAIN-KEYWORD,rule34
+
 🌍 国外媒体,[]DOMAIN-SUFFIX,hanime1.me
 🌍 国外媒体,[]DOMAIN-SUFFIX,asmr.one
-🌍 国外媒体,[]DOMAIN-KEYWORD,rule34
+🌍 国外媒体,[]DOMAIN-SUFFIX,missav.com
 
 🚀 节点选择,[]DOMAIN-SUFFIX,south-plus.net
 
