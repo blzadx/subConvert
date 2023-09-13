@@ -7,7 +7,8 @@
 🌍 国外媒体,[]DOMAIN-SUFFIX,hanime1.me
 🌍 国外媒体,[]DOMAIN-SUFFIX,asmr.one
 
-🚀 节点选择,[]DOMAIN-SUFFIX,south-plus.net
+🚀 节点选择,[]DOMAIN-KEYWORD,south-plus
+🚀 节点选择,[]DOMAIN-KEYWORD,sayhuahuo
 
 DIRECT,[]DOMAIN-KEYWORD,yhdm
 DIRECT,[]DOMAIN-KEYWORD,yhpdm
