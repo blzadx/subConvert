@@ -2,7 +2,7 @@
 
 🌍 国外媒体,[]DOMAIN-KEYWORD,iwara
 🌍 国外媒体,[]DOMAIN-SUFFIX,hanime1.me
-# 🌍 国外媒体,[]DOMAIN-SUFFIX,asmr.one
+🌍 国外媒体,[]DOMAIN-SUFFIX,asmr.one
 🌍 国外媒体,[]DOMAIN-KEYWORD,rule34
 
 🚀 节点选择,[]DOMAIN-SUFFIX,south-plus.net
