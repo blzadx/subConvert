@@ -1,11 +1,11 @@
 # 个人使用的规则集
 
-🌍 国外媒体,[]DOMAIN-KEYWORD,iwara
-🌍 国外媒体,[]DOMAIN-KEYWORD,rule34
-🌍 国外媒体,[]DOMAIN-KEYWORD,missav
+🇺🇲 美国节点,[]DOMAIN-KEYWORD,iwara
+🇺🇲 美国节点,[]DOMAIN-KEYWORD,rule34
 
-🌍 国外媒体,[]DOMAIN-SUFFIX,hanime1.me
-🌍 国外媒体,[]DOMAIN-SUFFIX,asmr.one
+🇭🇰 香港节点,[]DOMAIN-KEYWORD,missav
+🇭🇰 香港节点,[]DOMAIN-SUFFIX,hanime1.me
+🇭🇰 香港节点,[]DOMAIN-SUFFIX,asmr.one
 
 🚀 节点选择,[]DOMAIN-KEYWORD,south-plus
 🚀 节点选择,[]DOMAIN-KEYWORD,sayhuahuo
@@ -13,15 +13,11 @@
 🚀 节点选择,[]DOMAIN-SUFFIX,doh.opendns.com
 🚀 节点选择,[]DOMAIN-SUFFIX,dns.cloudflare.com
 
-DIRECT,[]DOMAIN-KEYWORD,yhdm
-DIRECT,[]DOMAIN-KEYWORD,yhpdm
-DIRECT,[]DOMAIN-KEYWORD,yhmok
+
 DIRECT,[]DOMAIN-KEYWORD,lenovo
-DIRECT,[]DOMAIN-KEYWORD,bimiacg
 DIRECT,[]DOMAIN-KEYWORD,agemys
 # DIRECT,[]DOMAIN-KEYWORD,cloudflare
 
-DIRECT,[]DOMAIN-SUFFIX,xmfans.me
 DIRECT,[]DOMAIN-SUFFIX,age.tv
 DIRECT,[]DOMAIN-SUFFIX,sbdm.net
 DIRECT,[]DOMAIN-SUFFIX,LLdm.net
