@@ -1,0 +1,33 @@
+# 个人使用的规则集
+
+🇺🇲 美国节点,[]DOMAIN-KEYWORD,iwara
+🇺🇲 美国节点,[]DOMAIN-KEYWORD,rule34
+🇺🇲 美国节点,[]DOMAIN-KEYWORD,pilipili
+
+🇭🇰 香港节点,[]DOMAIN-KEYWORD,missav
+🇭🇰 香港节点,[]DOMAIN-SUFFIX,hanime1.me
+🇭🇰 香港节点,[]DOMAIN-SUFFIX,asmr.one
+
+🚀 节点选择,[]DOMAIN-KEYWORD,south-plus
+🚀 节点选择,[]DOMAIN-KEYWORD,sayhuahuo
+
+# 国际DNS
+🚀 节点选择,[]DOMAIN-SUFFIX,doh.opendns.com
+🚀 节点选择,[]DOMAIN-SUFFIX,dns.cloudflare.com
+🚀 节点选择,[]DOMAIN-SUFFIX,cloudflare-dns.com
+🚀 节点选择,[]IP-CIDR,8.8.8.8/32,no-resolve
+🚀 节点选择,[]IP-CIDR,8.8.4.4/32,no-resolve
+🚀 节点选择,[]IP-CIDR,208.67.222.222/32,no-resolve
+🚀 节点选择,[]IP-CIDR,208.67.220.220/32,no-resolve
+🚀 节点选择,[]IP-CIDR,1.1.1.1/32,no-resolve
+🚀 节点选择,[]IP-CIDR,1.0.0.1/32,no-resolve
+
+DIRECT,[]DOMAIN-KEYWORD,lenovo
+DIRECT,[]DOMAIN-KEYWORD,agemys
+
+DIRECT,[]DOMAIN-SUFFIX,age.tv
+DIRECT,[]DOMAIN-SUFFIX,sbdm.net
+DIRECT,[]DOMAIN-SUFFIX,LLdm.net
+DIRECT,[]DOMAIN-SUFFIX,ysjdm.net
+DIRECT,[]DOMAIN-SUFFIX,vcb-s.com
+DIRECT,[]DOMAIN-SUFFIX,favicon.yandex.net
