@@ -1,12 +1,42 @@
-mixed-port: 7890
+# interface-name: en0
+# routing-mark: 6666
+mixed-port: 48291
+redir-port: 27581
+tproxy-port: 32910
+
 allow-lan: true
+bind-address: '*'
+
 mode: rule
 log-level: info
+
+ipv6: false
+
 external-controller: 127.0.0.1:9090
+# external-ui: folder
+# secret: ""
+
+profile:
+  store-selected: true
+  # store-fake-ip: false
+  
+# hosts:
+  # '*.clash.dev': 127.0.0.1
+  # '.dev': 127.0.0.1
+  # 'alpha.clash.dev': '::1'
+
 dns:
   enable: false
-  ipv6: false
   listen: "0.0.0.0:6947"
+  ipv6: false
+
+  # use-hosts: true # 查找 hosts 并返回 IP 记录
+  # search-domains: [local] # A/AAAA 记录的搜索域
   enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+  
   nameserver:
     - 127.0.0.1
