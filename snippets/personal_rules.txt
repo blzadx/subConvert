@@ -1,6 +1,6 @@
 # 预处理和个人规则
-DIRECT,clash-domain:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt,86400
-DIRECT,clash-ipcidr:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt,86400,no-resolve
+DIRECT,clash-domain:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt
+DIRECT,clash-ipcidr:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt,no-resolve
 
 DIRECT,[]DOMAIN-SUFFIX,age.tv
 DIRECT,[]DOMAIN-SUFFIX,sbdm.net
