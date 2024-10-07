@@ -56,6 +56,10 @@ dns:
       - '+.facebook.com'
       - '+.youtube.com'
       - '+.githubusercontent.com'
+    
+proxies:
+
+proxy-groups:
 
 rule-providers:
   private:
@@ -70,7 +74,7 @@ rule-providers:
     url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt
     path: ./providers/rule-provider_lancidr.yaml
     interval: 86400
-    
+
 rules:
   - RULE-SET,private,DIRECT
   - RULE-SET,lancidr,DIRECT,no-resolve
