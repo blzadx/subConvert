@@ -1,4 +1,19 @@
-# 个人使用的规则集
+# 预处理和个人规则
+DIRECT,clash-domain:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt,86400
+DIRECT,clash-ipcidr:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt,86400
+
+DIRECT,[]DOMAIN-SUFFIX,age.tv
+DIRECT,[]DOMAIN-SUFFIX,sbdm.net
+DIRECT,[]DOMAIN-SUFFIX,LLdm.net
+DIRECT,[]DOMAIN-SUFFIX,ysjdm.net
+DIRECT,[]DOMAIN-SUFFIX,vcb-s.com
+DIRECT,[]DOMAIN-SUFFIX,favicon.yandex.net
+
+DIRECT,[]DOMAIN-KEYWORD,lenovo
+DIRECT,[]DOMAIN-KEYWORD,agemys
+
+🇺🇲 美国节点,[]DOMAIN-SUFFIX,rule34video.com
+🇺🇲 美国节点,[]DOMAIN-KEYWORD,pilipili
 
 🚀 节点选择,[]DOMAIN-SUFFIX,missav.com
 🚀 节点选择,[]DOMAIN-SUFFIX,south-plus.net
@@ -14,16 +29,3 @@
 🚀 节点选择,[]IP-CIDR,208.67.220.220/32,no-resolve
 🚀 节点选择,[]IP-CIDR,1.1.1.1/32,no-resolve
 🚀 节点选择,[]IP-CIDR,1.0.0.1/32,no-resolve
-
-DIRECT,[]DOMAIN-SUFFIX,age.tv
-DIRECT,[]DOMAIN-SUFFIX,sbdm.net
-DIRECT,[]DOMAIN-SUFFIX,LLdm.net
-DIRECT,[]DOMAIN-SUFFIX,ysjdm.net
-DIRECT,[]DOMAIN-SUFFIX,vcb-s.com
-DIRECT,[]DOMAIN-SUFFIX,favicon.yandex.net
-
-DIRECT,[]DOMAIN-KEYWORD,lenovo
-DIRECT,[]DOMAIN-KEYWORD,agemys
-
-🇺🇲 美国节点,[]DOMAIN-SUFFIX,rule34video.com
-🇺🇲 美国节点,[]DOMAIN-KEYWORD,pilipili
