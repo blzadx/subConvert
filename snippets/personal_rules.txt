@@ -12,8 +12,8 @@ DIRECT,[]DOMAIN-SUFFIX,favicon.yandex.net
 DIRECT,[]DOMAIN-KEYWORD,lenovo
 DIRECT,[]DOMAIN-KEYWORD,agemys
 
-🇺🇲 美国节点,[]DOMAIN-SUFFIX,rule34video.com
-🇺🇲 美国节点,[]DOMAIN-KEYWORD,pilipili
+🇺🇲 美国,[]DOMAIN-SUFFIX,rule34video.com
+🇺🇲 美国,[]DOMAIN-KEYWORD,pilipili
 
 🚀 地区选择,[]DOMAIN-SUFFIX,missav.com
 🚀 地区选择,[]DOMAIN-SUFFIX,south-plus.net
