@@ -6,16 +6,17 @@ DIRECT,[]DOMAIN-SUFFIX,vcb-s.com
 DIRECT,[]DOMAIN-SUFFIX,favicon.yandex.net
 DIRECT,[]DOMAIN-SUFFIX,kiko-play-niptan.one
 DIRECT,[]DOMAIN-SUFFIX,pilipili.misakaf.org
+DIRECT,[]DOMAIN-SUFFIX,vdownload.hembed.com
 DIRECT,[]DOMAIN-KEYWORD,lenovo
 
 🌍 国外媒体,[]DOMAIN-SUFFIX,rule34video.com
 🌍 国外媒体,[]DOMAIN-SUFFIX,pilipili.club
+🌍 国外媒体,[]DOMAIN-SUFFIX,hanime1.me
+🌍 国外媒体,[]DOMAIN-SUFFIX,asmr.one
 🌍 国外媒体,[]DOMAIN-SUFFIX,missav.com
 
 🚀 地区选择,[]DOMAIN-SUFFIX,south-plus.net
 🚀 地区选择,[]DOMAIN-SUFFIX,sayhuahuo.net
-🚀 地区选择,[]DOMAIN-SUFFIX,hanime1.me
-🚀 地区选择,[]DOMAIN-SUFFIX,asmr.one
 
 🚀 地区选择,[]DOMAIN-SUFFIX,doh.opendns.com
 🚀 地区选择,[]DOMAIN-SUFFIX,dns.cloudflare.com
