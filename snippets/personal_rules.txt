@@ -1,29 +1,14 @@
-# 预处理和个人规则
-;DIRECT,clash-domain:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt
-;DIRECT,clash-ipcidr:https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt,no-resolve
-
 DIRECT,[]DOMAIN-SUFFIX,vcb-s.com
 DIRECT,[]DOMAIN-SUFFIX,favicon.yandex.net
-DIRECT,[]DOMAIN-SUFFIX,kiko-play-niptan.one
-DIRECT,[]DOMAIN-SUFFIX,pilipili.misakaf.org
-DIRECT,[]DOMAIN-SUFFIX,vdownload.hembed.com
+;DIRECT,[]DOMAIN-SUFFIX,kiko-play-niptan.one
+;DIRECT,[]DOMAIN-SUFFIX,vdownload.hembed.com
 DIRECT,[]DOMAIN-KEYWORD,lenovo
 
+🌍 国外媒体,[]DOMAIN-KEYWORD,pilipili
 🌍 国外媒体,[]DOMAIN-SUFFIX,rule34video.com
-🌍 国外媒体,[]DOMAIN-SUFFIX,pilipili.club
 🌍 国外媒体,[]DOMAIN-SUFFIX,hanime1.me
 🌍 国外媒体,[]DOMAIN-SUFFIX,asmr.one
-🌍 国外媒体,[]DOMAIN-SUFFIX,missav.com
+🌍 国外媒体,[]DOMAIN-SUFFIX,missav.ws
 
 🚀 地区选择,[]DOMAIN-SUFFIX,south-plus.net
 🚀 地区选择,[]DOMAIN-SUFFIX,sayhuahuo.net
-
-🚀 地区选择,[]DOMAIN-SUFFIX,doh.opendns.com
-🚀 地区选择,[]DOMAIN-SUFFIX,dns.cloudflare.com
-🚀 地区选择,[]DOMAIN-SUFFIX,cloudflare-dns.com
-🚀 地区选择,[]IP-CIDR,8.8.8.8/32,no-resolve
-🚀 地区选择,[]IP-CIDR,8.8.4.4/32,no-resolve
-🚀 地区选择,[]IP-CIDR,208.67.222.222/32,no-resolve
-🚀 地区选择,[]IP-CIDR,208.67.220.220/32,no-resolve
-🚀 地区选择,[]IP-CIDR,1.1.1.1/32,no-resolve
-🚀 地区选择,[]IP-CIDR,1.0.0.1/32,no-resolve

@@ -1,6 +1,6 @@
 mixed-port: 58712
 
-allow-lan: true
+allow-lan: false
 bind-address: "*"
 
 mode: rule
@@ -13,7 +13,7 @@ external-controller: 127.0.0.1:9090
 dns:
   enable: true
   ipv6: true
-  listen: "127.0.0.1:6947"
+  listen: "127.0.0.1:32104"
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -21,16 +21,17 @@ dns:
     - localhost.ptlogin2.qq.com
   default-nameserver:
     - 223.5.5.5
+    - 119.29.29.29
   nameserver:
     - "https://dns.alidns.com/dns-query"
     - "https://doh.pub/dns-query"
   fallback:
-    - tls://8.8.4.4
-    - https://146.112.41.2/dns-query
-    - tls://208.67.222.222
-    - tls://208.67.220.220
-    - https://1.1.1.1/dns-query
-    - tls://1.0.0.1
+    - tls://dns.google
+    - https://doh.sandbox.opendns.com/dns-query
+    - tls://sandbox.opendns.com
+    - https://dns.cloudflare.com/dns-query
+    - tls://one.one.one.one
+    - https://0ms.dev/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -62,19 +63,5 @@ proxies:
 proxy-groups:
 
 rule-providers:
-  private:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
-    path: ./providers/rule-provider_private.yaml
-    interval: 86400
-  lancidr:
-    type: http
-    behavior: ipcidr
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
-    path: ./providers/rule-provider_lancidr.yaml
-    interval: 86400
 
 rules:
-  - RULE-SET,private,DIRECT
-  - RULE-SET,lancidr,DIRECT,no-resolve

@@ -1,6 +1,11 @@
 # interface-name: en0
 # routing-mark: 6666
+
 mixed-port: 48291
+# authentication:
+#  - "user1:pass1"
+#  - "user2:pass2"
+
 redir-port: 27581
 tproxy-port: 32910
 
@@ -27,7 +32,7 @@ profile:
 
 dns:
   enable: false
-  listen: "0.0.0.0:6947"
+  listen: "0.0.0.0:47652"
   ipv6: true
 
   # use-hosts: true # 查找 hosts 并返回 IP 记录
@@ -46,19 +51,5 @@ proxies:
 proxy-groups:
 
 rule-providers:
-  private:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
-    path: ./providers/rule-provider_private.yaml
-    interval: 86400
-  lancidr:
-    type: http
-    behavior: ipcidr
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
-    path: ./providers/rule-provider_lancidr.yaml
-    interval: 86400
 
 rules:
-  - RULE-SET,private,DIRECT
-  - RULE-SET,lancidr,DIRECT,no-resolve
