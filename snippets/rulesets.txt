@@ -22,7 +22,6 @@ DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.l
 📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
 📺 哔哩哔哩,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
 🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Iwara.list
 🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Porn.list
 🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/EHGallery.list
 🚀 地区选择,https://raw.githubusercontent.com/blzadx/subConvert/main/snippets/DoP.list
@@ -30,6 +29,13 @@ DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.l
 🚀 地区选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 ;DIRECT,clash-domain:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
 DIRECT,clash-ipcidr:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
+🇭🇰 香港,[]GEOIP,HK
+🇹🇼 台湾,[]GEOIP,TW
+🇯🇵 日本,[]GEOIP,JP
+🇰🇷 韩国,[]GEOIP,KR
+🇸🇬 新加坡,[]GEOIP,SG
+🇺🇲 美国,[]GEOIP,US
+🇨🇦 加拿大,[]GEOIP,CA
 DIRECT,clash-ipcidr:https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
 ;DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 🐟 漏网之鱼,[]FINAL
