@@ -11,4 +11,3 @@ DIRECT,[]DOMAIN-KEYWORD,lenovo
 🌍 国外媒体,[]DOMAIN-SUFFIX,missav.ws
 
 🚀 地区选择,[]DOMAIN-SUFFIX,south-plus.net
-🚀 地区选择,[]DOMAIN-SUFFIX,sayhuahuo.net
