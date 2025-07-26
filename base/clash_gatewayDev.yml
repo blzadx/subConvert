@@ -45,11 +45,3 @@ dns:
   
   nameserver:
     - 127.0.0.1
-
-proxies:
-
-proxy-groups:
-
-rule-providers:
-
-rules:
