@@ -27,7 +27,7 @@ dns:
     - "https://doh.pub/dns-query"
   fallback:
     - https://[2620:119:fc::4]/dns-query
-    - tls://[2620:0:ccd::2]
+    - tls://[2620:0:ccd::2]:853
     - tls://1dot1dot1dot1.cloudflare-dns.com
     - https://v.recipes/dns-ecs
   fallback-filter:
