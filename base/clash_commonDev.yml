@@ -26,12 +26,10 @@ dns:
     - "https://dns.alidns.com/dns-query"
     - "https://doh.pub/dns-query"
   fallback:
-    - tls://dns.google
-    - https://doh.sandbox.opendns.com/dns-query
-    - tls://sandbox.opendns.com
-    - https://dns.cloudflare.com/dns-query
-    - tls://one.one.one.one
-    - https://0ms.dev/dns-query
+    - https://[2620:119:fc::4]/dns-query
+    - tls://[2620:0:ccd::2]
+    - tls://1dot1dot1dot1.cloudflare-dns.com
+    - https://v.recipes/dns-ecs
   fallback-filter:
     geoip: true
     geoip-code: CN
