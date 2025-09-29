@@ -1,3 +1,5 @@
+DIRECT,[]DOMAIN-SUFFIX,ouonetwork.com
+DIRECT,[]DOMAIN-SUFFIX,cauenvao.click
 DIRECT,[]DOMAIN-SUFFIX,vcb-s.com
 DIRECT,[]DOMAIN-SUFFIX,favicon.yandex.net
 DIRECT,[]DOMAIN-KEYWORD,lenovo
@@ -8,7 +10,7 @@ DIRECT,[]DOMAIN-KEYWORD,lenovo
 🌍 国外媒体,[]DOMAIN-SUFFIX,asmr.one
 🌍 国外媒体,[]DOMAIN-SUFFIX,missav.ws
 
-🚀 地区选择,[]DOMAIN-SUFFIX,oochat.space
+🇸🇬 新加坡,[]DOMAIN-SUFFIX,oochat.space
 🚀 地区选择,[]DOMAIN-SUFFIX,linshiyouxiang.net
 🚀 地区选择,[]DOMAIN-SUFFIX,theb.ai
 🚀 地区选择,[]DOMAIN-SUFFIX,cdn.plyr.io
